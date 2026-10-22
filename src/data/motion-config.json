@@ -1,0 +1,55 @@
+{
+  "complexDesktopQuery": "(min-width: 1024px) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
+  "nativeScroll": true,
+  "easing": {
+    "ui": "cubic-bezier(.22,1,.36,1)",
+    "reveal": "power3.out",
+    "crossfade": "sine.inOut",
+    "scrub": "none"
+  },
+  "hero": {
+    "titleDurationMs": 850,
+    "lineStaggerMs": 100,
+    "titleYpx": 18,
+    "desktopImageParallaxPercent": 2.5,
+    "mobileImageParallaxPercent": 0
+  },
+  "chapter": {
+    "durationMs": 900,
+    "start": "top 82%",
+    "scrubSeconds": 0.65
+  },
+  "booking": {
+    "durationMs": 320,
+    "xPx": 24,
+    "reducedMotionDurationMs": 0
+  },
+  "glass": {
+    "desktopBlurPx": 14,
+    "mobileBlurPx": 8,
+    "fallbackOpaque": true
+  },
+  "pin": {
+    "enabled": false,
+    "maxInstances": 0,
+    "scrollDistanceSvh": 0,
+    "touchEnabled": false
+  },
+  "reducedMotion": {
+    "pin": false,
+    "parallax": false,
+    "autoplayVideo": false,
+    "reveal": "immediate"
+  },
+  "season": {
+    "enabled": true,
+    "desktopCrossfadeMs": 900,
+    "touchCrossfadeMs": 450,
+    "reducedCrossfadeMs": 0,
+    "default": "summer",
+    "urlKey": "season",
+    "storageKey": "memento-mountain-season",
+    "lastRequestWins": true,
+    "preserveBookingAndScroll": true
+  }
+}

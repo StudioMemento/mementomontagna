@@ -1,0 +1,157 @@
+{
+  "project": "Hospitality Mountain",
+  "brand": "MEMENTO",
+  "descriptor": "Dolomites Retreat",
+  "locale": "it",
+  "isConcept": true,
+  "hero": {
+    "title": "Il silenzio, finalmente.",
+    "subtitle": "Un rifugio per ritrovare il proprio ritmo.",
+    "cta": "Esplora MEMENTO"
+  },
+  "rooms": [
+    {
+      "id": "suite-bosco",
+      "name": "Chalet Bosco",
+      "description": "Larice, lana e un affaccio sul verde.",
+      "amenities": [
+        "Zona lettura",
+        "Terrazza",
+        "Bagno in pietra",
+        "Accesso alla spa"
+      ],
+      "isConcept": true,
+      "price": null,
+      "availability": null
+    },
+    {
+      "id": "suite-dolomiti",
+      "name": "Suite Dolomiti",
+      "description": "Il paesaggio entra negli spazi del soggiorno.",
+      "amenities": [
+        "Vista sulle montagne",
+        "Living",
+        "Vasca",
+        "Servizio in camera"
+      ],
+      "isConcept": true,
+      "price": null,
+      "availability": null
+    },
+    {
+      "id": "suite-panorama",
+      "name": "Appartamento Panorama",
+      "description": "Più spazio per condividere la quiete.",
+      "amenities": [
+        "Living separato",
+        "Terrazza panoramica",
+        "Zona pranzo",
+        "Servizio in camera"
+      ],
+      "isConcept": true,
+      "price": null,
+      "availability": null
+    }
+  ],
+  "services": [
+    {
+      "id": "spa",
+      "title": "Il benessere prende spazio.",
+      "label": "Spa e rituali",
+      "description": "Piscina interna, sauna, bagno di vapore, docce sensoriali, massaggi e percorsi di recupero.",
+      "imageId": "spa-care",
+      "isConcept": true
+    },
+    {
+      "id": "health-club",
+      "title": "Ritrovare il proprio equilibrio.",
+      "label": "Health Club e personal training",
+      "description": "Palestra, mobilità, yoga, preparazione al movimento e sessioni individuali.",
+      "imageId": "health-club",
+      "isConcept": true
+    },
+    {
+      "id": "ristoranti",
+      "title": "Il territorio, con sensibilità.",
+      "label": "Ristoranti e alta cucina",
+      "description": "Un ristorante gastronomico e una proposta più informale, legati alla stagionalità.",
+      "imageId": "dining",
+      "isConcept": true
+    },
+    {
+      "id": "wine-library",
+      "title": "Una storia in ogni calice.",
+      "label": "Wine Library",
+      "description": "Una selezione da esplorare con il sommelier, con degustazioni su richiesta.",
+      "imageId": "libraries",
+      "isConcept": true
+    },
+    {
+      "id": "cigar-library",
+      "title": "Il piacere di una pausa.",
+      "label": "Cigar Library",
+      "description": "Una sala dedicata, raccolta e separata dagli altri ambienti comuni.",
+      "imageId": "cigar-library",
+      "isConcept": true
+    }
+  ],
+  "experiences": {
+    "summer": [
+      {
+        "id": "sentieri",
+        "name": "Sentieri e panorami",
+        "description": "Camminate guidate e pause nel paesaggio."
+      },
+      {
+        "id": "yoga",
+        "name": "Movimento all’aperto",
+        "description": "Yoga, mobilità e respiro nel verde."
+      },
+      {
+        "id": "rituali-estate",
+        "name": "Rituali d’estate",
+        "description": "Benessere e cucina stagionale."
+      }
+    ],
+    "winter": [
+      {
+        "id": "neve",
+        "name": "Il paesaggio innevato",
+        "description": "Passeggiate e attività sulla neve da organizzare con il concierge."
+      },
+      {
+        "id": "recupero",
+        "name": "Il calore del ritorno",
+        "description": "Spa e recupero dopo una giornata all’aperto."
+      },
+      {
+        "id": "sera",
+        "name": "Una sera raccolta",
+        "description": "Cucina, letture e degustazioni nella Wine Library."
+      }
+    ]
+  },
+  "reviews": [],
+  "booking": {
+    "mode": "demo",
+    "title": "Il tuo soggiorno",
+    "notice": "Prenotazione dimostrativa: nessuna richiesta viene inviata.",
+    "success": "Simulazione completata. Nessuna prenotazione è stata effettuata.",
+    "fields": [
+      "arrival",
+      "departure",
+      "adults",
+      "roomId",
+      "interests",
+      "notes"
+    ],
+    "collectPersonalData": false
+  },
+  "footer": {
+    "brand": "MEMENTO",
+    "conceptNotice": "Concept di hospitality. Struttura e immagini immaginarie.",
+    "email": null,
+    "phone": null,
+    "address": null
+  }
+}
